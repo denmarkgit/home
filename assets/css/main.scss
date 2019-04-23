@@ -3,3 +3,10 @@
 ---
 @charset "utf-8";
 @import "main";
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

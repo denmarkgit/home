@@ -28,7 +28,7 @@ sass:
 
 # Author settings
 author:
-  name     : "John Doe"
+  name     : "Denmark Angeles"
 
 plugins:
   - jekyll-sitemap
@@ -41,5 +41,11 @@ navbar:
     title: About
   - slug : blog
     title: Blog
+
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script"]
